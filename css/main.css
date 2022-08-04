@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -9,30 +10,43 @@ html {
 }
 
 body {
-  margin: .5rem;
+  margin: 0;
 }
 
 header {
+  background-color: #e2e2e2;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }
 
 header h1 {
-
+  margin-left: -5rem;
 }
 
 header img {
-
+  order: -1;
+  width: 2rem;
+  margin-left: .5rem;
 }
 
 header p {
-
+  font-size: 1.125rem;
 }
 
 nav ul {
-
+  display: inline-flex;
+  list-style-type: none;
 }
 
 nav a {
+  color: #0074d9;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
 
+nav a:hover {
+  background-color: #0074d9;
 }
